@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data files (не коммитим большие файлы данных)
+*.json
+*.csv
+!data/faq/*.csv  # Но FAQ файл нужен для бенчмарка
+
+# Models (локальные модели не коммитим)
+D:/hf_models/
+
+# Qdrant storage
+qdrant_storage/
+
+# IDE
+.idea/
+.vscode/
+
+# Exported data
+exported_data/
+exported_data.zip
+chunks.json
